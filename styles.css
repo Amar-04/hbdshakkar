@@ -1,0 +1,37 @@
+body {
+  background: #121213cf;
+  display: grid;
+  place-items: center;
+  height: 100vh;
+  margin: 0;
+}
+.card {
+  background: #fdfdfd;
+  border-radius: 4px;
+  height: 85vh;
+  width: 95vw;
+  text-align: center;
+  overflow-y: auto;
+}
+
+img.birthday_img {
+  max-height: 45vh;
+}
+
+.poem-container {
+  border: 2px solid #ffd700;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.poem-container p {
+  font-family: cursive;
+  font-size: larger;
+}
+
+h2 {
+  font-family: cursive;
+  font-weight: 600;
+}
